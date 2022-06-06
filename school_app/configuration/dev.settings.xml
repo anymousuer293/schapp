@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config availible="moderator/developer">
+    <section name="Accounts">
+        <!--! No normal user or hacker can use this. Only developers or moderators can use this.-->
+        <specialsetting>
+            <name>Ban Account</name>
+            <value>accountyouwanttoban</value>
+            <reason>reason</reason>
+            <time>time</time>
+        </specialsetting>
+        <specialsetting>
+            <name>Kick Account</name>
+            <value>accountyouwanttokick</value>
+            <place id="id">place</place>
+            <reason>reason</reason>
+            <time>time</time>
+        </specialsetting>
+        <specialsetting>
+            <name>Terminate Account</name>
+            <value>accountyouwanttoterminate</value>
+            <reason>reason</reason>
+            <warning>Don't accidentally or mistakenly use this. You are WARNED.</warning>
+        </specialsetting>
+        <specialsetting>
+            <name>IP Ban Account</name>
+            <value>accountyouwanttoipban</value>
+            <reason>reason</reason>
+            <time>time</time>
+            <warning>This will ban all accounts that you make on a computer. Let's say you're IP Banned, oh no! You can make another account on the same computer.</warning>
+        </specialsetting>
+        <specialsetting>
+            <name>Poison Ban</name>
+            <value>accountyouwanttopoisonban</value>
+            <reason>reason</reason>
+            <time>time</time>
+            <warning>This will be a bad ban. If you get this type of ban, you have to do. 1 bad challenge. Your teacher will have to give you one bad challenge.</warning>
+        </specialsetting>
+    </section>
+    <section name="Class, Campus, School District, Government">
+        <specialsetting>
+            <name>Add Class</name>
+            <value>classname</value>
+            <id>classid</id>
+        </specialsetting>
+        <specialsetting>
+            <name>Delete Class</name>
+            <value>classname</value>
+            <id>classid</id>
+        </specialsetting>
+        <specialsetting>
+            <name>Add Campus</name>
+            <value>campusname</value>
+            <id>campusid</id>
+        </specialsetting>
+        <specialsetting>
+            <name>Delete Campus</name>
+            <value>campusname</value>
+            <id>campusid</id>
+        </specialsetting>
+        <specialsetting>
+            <name>Add District</name>
+            <value>districtname</value>
+            <id>districtid</id>
+        </specialsetting>
+        <specialsetting>
+            <name>Delete District</name>
+            <value>districtname</value>
+            <id>districtid</id>
+        </specialsetting>
+        <specialsetting>
+            <name>Add Government</name>
+            <value>governmentname</value>
+            <id>governmentid</id>
+        </specialsetting>
+        <specialsetting>
+            <name>Delete Government</name>
+            <value>governmentname</value>
+            <id>governmentid</id>
+        </specialsetting>
+    </section>
+</config>

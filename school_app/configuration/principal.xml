@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config availible="principal">
+    <section name="Campus">
+        <setting>
+            <name>Make Ceremony or an After School Event</name>
+            <time>time</time>
+            <value>nameofevent</value>
+            <location>location</location>
+            <id>id</id>
+        </setting>
+        <setting>
+            <name>Delete Ceremony or an After School Event</name>
+            <value>nameofevent</value>
+            <id>id</id>
+        </setting>
+        <setting>
+            <name>Sell Merchandise</name>
+            <value>nameofmerchandise</value>
+            <id>id</id>
+        </setting>
+        <setting>
+            <name>Delete Merchandise</name>
+            <value>nameofmerchandise</value>
+            <id>id</id>
+        </setting>
+    </section>
+    <section name="Students">
+        <setting>
+            <name>Expell Student</name>
+            <value>nameofstudent</value>
+            <id>id</id>
+            <time>time</time>
+        </setting>
+        <setting school_type="middle_school">
+            <name>Put student in detention</name>
+            <value>nameofstudent</value>
+            <id>id</id>
+            <time>time</time> <!--* Time can only be under 6-7 hours.-->
+        </setting>
+        <contact>
+            <name>Contact Student's parent</name>
+            <value>nameofstudent/nameofparent</value>
+            <id>idofstudent</id>
+            <call>telephonenumber</call>
+        </contact>
+        <function>
+            <name>Fire Teacher</name>
+            <value>nameofteacher</value>
+            <id>id</id>
+        </function>
+    </section>
+    <section name="Higher Levels">
+        <data>
+            <level level="1">Student</level>
+            <level level="2">Teacher</level>
+            <level level="3">Principal</level>
+            <level level="4">Superintendent</level>
+        </data>
+
+        <contact>
+            <name>Contact Superintendent</name>
+            <call>telephonenumber</call>
+        </contact>
+    </section>
+</config>

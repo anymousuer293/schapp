@@ -1,0 +1,20 @@
+Ok I need features. We need to have grade levels that can support up to, 12th grade.
+
+0 - Kindergarten
+1 - First Grade
+2 - Second Grade
+3 - Third Grade
+4 - Fourth Grade
+5 - Fifth Grade
+6 - Sixth Grade
+7 - Seventh Grade
+8 - Eighth Grade
+9 - Ninth Grade
+10 - Tenth Grade
+11 - Eleventh Grade
+12 - Twelth Grade
+
+Each grade will have 4 or 5 subjects.
+Math, Reading, Science, Social Studies, and Language Arts.
+
+So when we have all of these subjects, we can create our features.

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <section name="Modes">
+        <!--! Do not use this to cheat in tests, change school guidlines, or do anything bad, or you might get in big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big trouble-->
+        <setting>
+            <name>Student Mode</name>
+            <value>null</value>
+        </setting>
+        <setting>
+            <name>Teacher Mode</name>
+            <value>null</value>
+        </setting>
+        <setting>
+            <name>Parent Mode</name>
+            <value>null</value>
+        </setting>
+        <setting>
+            <name>Principal Mode</name>
+            <value>null</value>
+        </setting>
+        <setting availible="superintendent">
+            <name>Superintendent Mode</name>
+            <value>null</value>
+        </setting>
+    </section>
+    <section name="Account Configuration">
+        <!--! This section is used for changing information about accounts. Big mistakes might lead in deleting accounts, hacking accounts, and probably being arrested for hacking. So be careful.-->
+        <setting>
+            <name>Delete Account</name>
+            <value>null</value>
+        </setting>
+        <setting>
+            <name>Change Username</name>
+            <value>currentusername</value>
+        </setting>
+        <setting>
+            <name>Change Password</name>
+            <value>currentpassword</value>
+        </setting>
+        <setting>
+            <name>Change Class, Campus, or School District</name>
+            <value>currentclasscampusorschooldistrict</value>
+        </setting>
+    </section>
+</config>

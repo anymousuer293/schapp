@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <section name="Classroom">
+        <send>
+            <name>Poison Ban Punishment</name>
+            <value>whatyouwanttosay</value>
+        </send>
+        <setting>
+            <name></name>
+        </setting>
+    </section>
+</config>
