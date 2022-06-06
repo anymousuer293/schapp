@@ -56,13 +56,19 @@ Well this very document is actually related to markdown. Which is actually relat
 ---
 Well all programming languages are related to C++ and C. Why C++ and C? Most programming languages have similar syntax to C++ and C. Like python for example. That programming language actually is coded in C++ or C. Well other programming language are a mixup of two languages. Like C#, or C sharp. C# is a programming language made out of two. C++ and Java. It is used in many programs and editors like unity and that's it. That's all the editors I know that support C#. Well VS code supports it also.
 
-### Data
-Well ``data`` stores information. Here's what ``data`` looks like in a ``.log`` file.
+### Data[^data]
+Well ``data``[^data] stores information. Here's what ``data``[^data] looks like in a ``.log`` file.
 
 ```
-16:33:21 - Started Assignment "Linear Equations
-16:43:55 - Completed assignment "Linear Equations"
-16:45:12 - Commented "This was really easy!" on "Linear Equations" as "David L."
-16:46:12 - Started Assignment "Variables in Algebra"
+16:33:21 6/5/22 - Started Assignment "Linear Equations
+16:43:55 6/5/22 - Completed assignment "Linear Equations"
+16:45:12 6/5/22 - Commented "This was really easy!" on "Linear Equations" as "David L."
+16:46:12 6/5/22 - Started Assignment "Variables in Algebra"
+16:52:19 6/5/22 - Completed Assignment "Variables in Algebra"
 ```
-a[^1]
+Well data stores information that is critical. Well some information will be erased for storage. So let's say you completed "ABC's and 123's" 5 years ago. That will be erased for storage, but teacher's will know that you still completed that assignment.
+
+#### Storage
+Storage takes up your disk storage. So we will erase some data to stop that from happening. All of this is controlled by the source code.
+
+[^data]: Data is really really really really important in this application. This data is automatically erased and stored by the source code.
