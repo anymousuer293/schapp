@@ -65,3 +65,4 @@ Well ``data`` stores information. Here's what ``data`` looks like in a ``.log`` 
 16:45:12 - Commented "This was really easy!" on "Linear Equations" as "David L."
 16:46:12 - Started Assignment "Variables in Algebra"
 ```
+a[^1]
